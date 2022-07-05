@@ -3,13 +3,33 @@ body{
     margin: 0px
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
+
 p{
-    font-size: 24px;
+    font-size: 18px;
 }
+
 .flexible-container{
     display: flex;
+}
+.donate-now{
+    background-color: #BB6464;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.input-box{
+    font-size: 18px;
+    margin-top: 6%;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    margin-bottom: 1%;
 }
 
 .first-part{
@@ -31,7 +51,6 @@ p{
     font-size: 18px;
     text-decoration: none;
 }
-
 .second-part{
     text-align: center;
     padding-top: 25px;
@@ -65,16 +84,32 @@ p{
     background-color: rgb(243, 243, 243);
     border-radius: 10px;
 } 
-.input-box{
-    font-size: 18px;
-    margin-top: 6%;
-    border: none;
-    border-bottom: 1px solid black;
+.third-part{
+    padding-left: 10%;
+    padding-right: 10%;
     text-align: center;
-    padding: 20px;
-    width: 60%;
-    margin-bottom: 1%;
+    padding-bottom: 2%;
 }
+.plan-box{
+    background-repeat: no-repeat;
+    width: 30%;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 1px 1px 1px 2px rgb(184, 184, 184);
+}
+#food-box{ 
+    background-color: #C9BBCF;   
+}
+#shelter-box{
+    background-color: #B7D3DF;
+}
+#education-box{
+    background-color: #D6EFED ;
+}
+
 
 
 
