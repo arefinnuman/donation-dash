@@ -1,21 +1,40 @@
-body{
+body {
     font-family: 'Kantumruy Pro', sans-serif;
     margin: 0px
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
-p{
+
+p {
     font-size: 18px;
 }
-.red-color{
-    color:#883333
+
+.red-color {
+    color: #883333
 }
 
-.flexible-container{
+.flexible-container {
     display: flex;
 }
-.donate-now{
+
+.half-width {
+    padding: 20px;
+    width: 50%;
+}
+
+.half-width h1 {
+    padding-top: 80px;
+
+}
+
+
+.half-width img {
+    width: 60%;
+}
+
+.button {
     background-color: #BB6464;
     color: white;
     padding: 10px 20px;
@@ -23,7 +42,8 @@ p{
     font-size: 18px;
     text-decoration: none;
 }
-.input-box{
+
+.input-box {
     font-size: 18px;
     margin-top: 6%;
     border: none;
@@ -34,10 +54,10 @@ p{
     margin-bottom: 1%;
 }
 
-.first-part{
+.first-part {
     background-image: url(images/donation13.jpg);
     background-size: cover;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 89%;
     height: 300px;
     color: white;
@@ -45,7 +65,8 @@ p{
     text-align: center;
     background-repeat: no-repeat;
 }
-.donate-now{
+
+.donate-now {
     background-color: #BB6464;
     color: white;
     padding: 10px 20px;
@@ -53,49 +74,58 @@ p{
     font-size: 18px;
     text-decoration: none;
 }
-.second-part{
+
+.second-part {
     text-align: center;
     padding-top: 25px;
     padding-bottom: 15px;
-    padding-left:5%;
-    padding-right:5%;
-} 
-.second-part p1{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.second-part p1 {
     padding: 30px 40px;
     background-color: rgb(243, 243, 243);
     border-radius: 10px;
 }
-.second-part p2{
+
+.second-part p2 {
     padding: 30px 40px;
-    background-color:#f3a0a0; 
-    border: 2px solid rgb(81, 29, 29); 
-    border-radius: 10px;  
+    background-color: #f3a0a0;
+    border: 2px solid rgb(81, 29, 29);
+    border-radius: 10px;
 }
-.second-part p3{
+
+.second-part p3 {
     padding: 40px 40px;
     background-color: rgb(243, 243, 243);
     border-radius: 5px;
 }
-.second-part p4{
+
+.second-part p4 {
     padding: 40px 40px;
     background-color: rgb(243, 243, 243);
     border-radius: 10px;
 }
-.second-part p5{ 
+
+.second-part p5 {
     padding: 40px 40px;
     background-color: rgb(243, 243, 243);
     border-radius: 10px;
-} 
-.third-part{
+}
+
+.third-part {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
 
 }
-.third-part h1{
+
+.third-part h1 {
     text-align: center;
 }
-.plan-box{
+
+.plan-box {
     background-repeat: no-repeat;
     width: 30%;
     padding-top: 80px;
@@ -105,25 +135,55 @@ p{
     margin-right: 2%;
     box-shadow: 1px 1px 1px 2px rgb(184, 184, 184);
 }
-#food-box{ 
-    background-color: #C9BBCF;   
-}
-#shelter-box{
-    background-color: #B7D3DF;
-}
-#education-box{
-    background-color: #D6EFED ;
+
+#food-box {
+    background-color: #C9BBCF;
 }
 
-footer{
+#shelter-box {
+    background-color: #B7D3DF;
+}
+
+#education-box {
+    background-color: #D6EFED;
+}
+
+.fourth-part {
+    background-image: url(images/rsz_yellow_and_blue.png);
+    height: 700px;
+    background-size: cover;
+}
+
+.last-part {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.last-part div {
+    text-align: center;
+    padding: 100px;
+    background-color: #898AA6;
+    margin-bottom: 7%;
+}
+
+.email-box {
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#email-button {
+    color: white;
+    background-color: #BB6464;
+
+}
+
+footer {
     background-color: black;
-    height:auto;
+    height: auto;
     color: white;
     padding: 10px;
     text-align: center;
 }
-
-
-
-
-
