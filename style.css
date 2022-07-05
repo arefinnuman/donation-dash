@@ -5,9 +5,11 @@ body{
 h1{
     font-size: 40px;
 }
-
 p{
     font-size: 18px;
+}
+.red-color{
+    color:#883333
 }
 
 .flexible-container{
@@ -87,8 +89,11 @@ p{
 .third-part{
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 5%;
+
+}
+.third-part h1{
     text-align: center;
-    padding-bottom: 2%;
 }
 .plan-box{
     background-repeat: no-repeat;
@@ -109,6 +114,15 @@ p{
 #education-box{
     background-color: #D6EFED ;
 }
+
+footer{
+    background-color: black;
+    height:auto;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
 
 
 
