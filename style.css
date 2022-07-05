@@ -1,0 +1,33 @@
+body{
+    font-family: 'Kantumruy Pro', sans-serif;
+    margin: 0px
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 24px;
+}
+
+.first-part{
+    background-image: url(images/donation13.jpg);
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: 89%;
+    height: 300px;
+    color: white;
+    padding: 10%;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.donate-now{
+    background-color: #BB6464;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+
